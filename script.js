@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
-    const aumentaFonteBotao = document.getElementById('aumentear-fonte');
-
+    const aumentaFonteBotao = document.getElementById('aumentar-fonte');
+    const diminuiFonteBotao = document.getElementById('diminui-fonte');
     let tamanohoAtualFonte = 1;
 
     aumentaFonteBotao.addEventListener('click', function () {
