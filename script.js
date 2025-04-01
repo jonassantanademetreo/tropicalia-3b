@@ -7,5 +7,10 @@ document.addEventListener('DOMContentLoaded', function () {
         tamanohoAtualFonte += 0.1;
         document.body.style.fontSize = `${tamanohoAtualFonte}rem`;
     });
+
+    diminuiFonteBotao.addEventListener('click', function () {
+        tamanohoAtualFonte -= 0.1;
+        document.body.style.fontSize = `${tamanohoAtualFonte}rem`;
+    });
     
 });
